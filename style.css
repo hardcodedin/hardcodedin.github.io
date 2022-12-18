@@ -1,0 +1,26 @@
+body{
+    background-image: url(./bg.png);
+    background-size: cover;
+  
+}
+
+#head{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 51, 255, 0.069);
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    padding: 20px 20px;
+}
+.align{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
